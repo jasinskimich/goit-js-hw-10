@@ -55,6 +55,7 @@ const createCountryInfo = country => {
 
   list.append(capitalItem, populationItem, languagesItem);
   return [header, list];
+  
 };
 
 const populateCountryHtml = debounce(event => {
